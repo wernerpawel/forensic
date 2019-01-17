@@ -1,0 +1,10 @@
+Browse Volume Shadow Copy on Windows:
+
+1. Type "vssadmin list shadows" in cmd (as admin) to see the content
+2. Choose the directory (cd)
+3. Use MKlink to create symbolic link - mklink /d stuff \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\ (put \ to avoid problem with access)
+MKLink Options:
+    /H – Trwałe łącze zamiast dowiązanie symboliczne
+    /D – Link do katalogu (domyślnie plik)
+    /J – Tworzy połączenie katalogów (junction)
+4. Done ;)
