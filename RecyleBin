@@ -1,0 +1,7 @@
+1. c:/ dir /a (hidden files)
+2. cd C:\$Recycle.Bin
+4. C:\$Recycle.Bin dir /a
+5. C:\$Recycle.Bin>wmic useraccount get name, sid 
+
+TOOLS:
+$I Parse - https://df-stream.com/recycle-bin-i-parser/
