@@ -1,1 +1,2 @@
 Process hollowing (hollow process injection) - takes a legitimate process, duplicates it in suspended state, replaces executable memory within that process with malicious code , resume process
+1. Process hollowing in vol. - hollowfind: vol.py -f xxx.vmem --profile WINXPSP2x64 hollowfind | more
