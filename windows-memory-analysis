@@ -1,0 +1,1 @@
+Process hollowing (hollow process injection) - takes a legitimate process, duplicates it in suspended state, replaces executable memory within that process with malicious code , resume process
